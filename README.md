@@ -26,6 +26,8 @@ Enterprise-style Ubuntu Server homelab featuring Docker, Portainer, Jellyfin, Sa
 - [Skills Demonstrated](#-skills-demonstrated)
 - [Project Highlights](#-project-highlights)
 - [Future Improvements](#-future-improvements)
+- [Final Thoughts](#-final-thoughts)
+- [Project Status](#-project-status)
   
 ---
 
