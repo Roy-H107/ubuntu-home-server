@@ -60,7 +60,7 @@ This diagram provides a high-level overview of the homelab architecture. Incomin
 <p align="center">
   <img src="images/ubuntu-home-server.drawio.svg"
        alt="Ubuntu Home Server Architecture Diagram"
-       width="75%">
+       width="60%">
 </p>
 
 ---
