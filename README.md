@@ -139,7 +139,7 @@ The server is administered entirely through SSH using the Linux command line. Do
 
 ## Why Docker?
 
-Docker allowed me to isolate applications into individual containers, making deployment, updates, and troubleshooting significantly easier than installing services directly on the operating system.
+Docker became the foundation of this homelab by allowing each service to run in its own isolated environment. This approach reduced dependency conflicts, simplified updates, and made it easy to deploy new applications without impacting existing services.
 
 ## Why Portainer?
 
