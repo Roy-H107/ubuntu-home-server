@@ -55,30 +55,13 @@ Every service added to this server became an opportunity to better understand Li
 
 # 🏗️ System Architecture
 
-```text
-                        Internet
-                            │
-                      Cloudflare DDNS
-                            │
-                     Xfinity Gateway
-                            │
-                     Port Forwarding
-                            │
-                       UFW Firewall
-                            |
-                ┌─────────────────────────┐
-                │     Ubuntu Server       │
-                │      HP Victus 15       │
-                └─────────────────────────┘
-                            │
-                       Docker Engine
-           ┌────────────────┼─────────────────┐
-           │                │                 │
-       Portainer        Jellyfin      Palworld Server
-                            │
-                          Samba
-                            │
-            Windows PCs • Smart TVs • Friends
+This diagram provides a high-level overview of the homelab architecture. Incoming traffic is managed through Cloudflare DDNS, secured by the home router and UFW firewall, and directed to an Ubuntu Server hosting containerized services with Docker. Individual services support media streaming, infrastructure management, and multiplayer game hosting for clients on both the local network and the Internet.
+
+<p align="center">
+  <img src="images/ubuntu-home-server.drawio.svg"
+       alt="Ubuntu Home Server Architecture Diagram"
+       width="100%">
+</p>
 
 ```
 
