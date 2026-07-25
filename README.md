@@ -100,6 +100,40 @@ Every service added to this server became an opportunity to better understand Li
 
 ---
 
+# 🧠 Design Decisions
+
+## Why Ubuntu Server?
+
+I chose Ubuntu Server because I wanted to become comfortable with Linux in an environment commonly used for servers and infrastructure.
+
+## Why Docker?
+
+Docker allowed me to isolate applications into individual containers, making deployment, updates, and troubleshooting significantly easier than installing services directly on the operating system.
+
+## Why Portainer?
+
+Portainer provides a clean web interface for managing Docker containers while still allowing me to learn Docker's command-line tools.
+
+## Why Jellyfin?
+
+I wanted a self-hosted media server that I owned and controlled without subscription fees.
+
+## Why Samba?
+
+Samba allowed Windows devices on my network to access centralized media and shared files.
+
+## Why Cloudflare DDNS?
+
+My home internet connection uses a dynamic public IP address.
+
+Cloudflare DDNS automatically updates my DNS records whenever my public IP changes, allowing me to reliably access services without manually updating DNS records.
+
+## Why UFW?
+
+UFW provided a simple way to manage firewall rules while limiting network exposure to only the required services.
+
+---
+
 # 💡 Skills Demonstrated
 
 - Linux Administration
