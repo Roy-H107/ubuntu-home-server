@@ -5,6 +5,8 @@ Enterprise-style Ubuntu Server homelab featuring Docker, Portainer, Jellyfin, Sa
 ---
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-26.04_LTS-E95420?logo=ubuntu&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-DDNS-F38020?logo=cloudflare&logoColor=white)
+![TCPShield](https://img.shields.io/badge/TCPShield-Game_Protection-6E56CF)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?logo=docker&logoColor=white)
 ![Jellyfin](https://img.shields.io/badge/Jellyfin-Streaming-00A4DC)
 ![Samba](https://img.shields.io/badge/Samba-File_Sharing-008000)
