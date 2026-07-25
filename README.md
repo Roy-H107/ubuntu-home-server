@@ -40,25 +40,27 @@ Every service added to this server became an opportunity to better understand Li
 ```text
                         Internet
                             │
-                    Cloudflare DDNS
+                      Cloudflare DDNS
                             │
                      Xfinity Gateway
                             │
-                  Port Forwarding (UFW)
+                     Port Forwarding
                             │
-              ┌─────────────────────────┐
-              │     Ubuntu Server       │
-              │       HP Victus 15      │
-              └─────────────────────────┘
+                       UFW Firewall
+                            |
+                ┌─────────────────────────┐
+                │     Ubuntu Server       │
+                │      HP Victus 15       │
+                └─────────────────────────┘
                             │
-                     Docker Engine
-       ┌────────────────┼─────────────────┐
-       │                │                 │
-   Portainer        Jellyfin      Palworld Server
+                       Docker Engine
+           ┌────────────────┼─────────────────┐
+           │                │                 │
+       Portainer        Jellyfin      Palworld Server
                             │
-                         Samba
+                          Samba
                             │
-         Windows PCs • Smart TVs • Friends
+            Windows PCs • Smart TVs • Friends
 ```
 
 # 🎯 Objectives
@@ -84,6 +86,22 @@ Every service added to this server became an opportunity to better understand Li
 | GPU | NVIDIA RTX 4050 |
 | Storage | 500 GB NVMe SSD |
 | Operating System | Ubuntu Server 26.04 LTS |
+
+---
+
+# 🧰 Software Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Ubuntu Server | Operating system |
+| Docker | Containerization platform |
+| Portainer | Docker management interface |
+| Jellyfin | Self-hosted media server |
+| Samba | Network file sharing |
+| Cloudflare DDNS | Dynamic DNS management |
+| SSH | Remote administration |
+| UFW | Host firewall |
+| Palworld Dedicated Server | Multiplayer game hosting |
 
 ---
 
