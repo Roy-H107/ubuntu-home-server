@@ -35,6 +35,32 @@ Every service added to this server became an opportunity to better understand Li
 
 ---
 
+# 🏗️ System Architecture
+
+```text
+                        Internet
+                            │
+                    Cloudflare DDNS
+                            │
+                     Xfinity Gateway
+                            │
+                  Port Forwarding (UFW)
+                            │
+              ┌─────────────────────────┐
+              │     Ubuntu Server       │
+              │       HP Victus 15      │
+              └─────────────────────────┘
+                            │
+                     Docker Engine
+       ┌────────────────┼─────────────────┐
+       │                │                 │
+   Portainer        Jellyfin      Palworld Server
+                            │
+                         Samba
+                            │
+         Windows PCs • Smart TVs • Friends
+```
+
 # 🎯 Objectives
 
 - Learn Linux administration
