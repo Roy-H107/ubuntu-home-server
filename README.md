@@ -131,6 +131,16 @@ The server is administered entirely through SSH using the Linux command line. Do
 
 ---
 
+## 📦 Docker Container Management
+
+Applications are deployed as Docker containers and managed through Portainer. This centralized interface provides visibility into container health, networking, and lifecycle management while allowing individual services to be updated or maintained independently.
+
+<p align="center">
+  <img src="images/portainer-containers.png" alt="Portainer Container Management" width="100%">
+</p>
+
+---
+
 # 🧠 Design Decisions
 
 ## Why Ubuntu Server?
