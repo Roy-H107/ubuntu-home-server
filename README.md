@@ -13,6 +13,22 @@ Enterprise-style Ubuntu Server homelab featuring Docker, Portainer, Jellyfin, Sa
 
 ---
 
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Why I Built This](#-why-i-built-this)
+- [System Architecture](#-system-architecture)
+- [Objectives](#-objectives)
+- [Hardware](#-hardware)
+- [Software Stack](#-software-stack)
+- [Design Decisions](#-design-decisions)
+- [Challenges & Solutions](#-challenges--solutions)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Project Highlights](#-project-highlights)
+- [Future Improvements](#-future-improvements)
+  
+---
+
 # 📖 Overview
 
 I built this Ubuntu Server homelab to become comfortable with Linux while creating infrastructure that provides real value to the people around me.
@@ -76,7 +92,7 @@ Every service added to this server became an opportunity to better understand Li
 
 ---
 
-# 🖥️ Hardware
+# 🖥️ Host Specifications
 
 | Component | Specification |
 |------------|--------------|
@@ -267,6 +283,18 @@ The documentation now serves as both a technical reference for future maintenanc
 - Documentation
 - Troubleshooting
 - Service Deployment
+
+---
+
+# 📊 Project Highlights
+
+- Successfully deployed an Ubuntu Server homelab from scratch.
+- Learned Linux administration through daily command-line usage.
+- Deployed multiple containerized services using Docker.
+- Configured centralized file sharing with Samba.
+- Hosted a dedicated Palworld server supporting seven concurrent players.
+- Implemented Cloudflare DDNS for reliable remote accessibility.
+- Documented the environment to support long-term maintenance and future expansion.
 
 ---
 
