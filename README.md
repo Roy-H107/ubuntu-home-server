@@ -77,7 +77,17 @@ Every service added to this server became an opportunity to better understand Li
                           Samba
                             │
             Windows PCs • Smart TVs • Friends
+
 ```
+## 📸 Ubuntu Server
+
+The server is administered entirely through SSH using the Linux command line. Docker is used to host containerized services including Jellyfin, Portainer, Cloudflare DDNS, and a dedicated Palworld server.
+
+<p align="center">
+  <img src="images/ubuntu-server-terminal.png" alt="Ubuntu Server Terminal" width="900">
+</p>
+
+---
 
 # 🎯 Objectives
 
