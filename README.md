@@ -10,15 +10,15 @@ I built this Ubuntu Server homelab to become comfortable with Linux while creati
 
 Rather than building a lab solely for learning, I wanted to create services that I would actually use every day. This project has grown into a platform for media streaming, file sharing, and dedicated game hosting for friends and family.
 
-One of the most rewarding moments was successfully hosting a Palworld server that supported seven concurrent players. Seeing people actively use something I built reinforced that the best way to learn infrastructure is by solving real problems for real users.
+One of my favorite moments was successfully hosting a Palworld server that supported seven players at once. Seeing people actively use something I built reinforced that the best way to learn infrastructure is by solving real problems for real users.
 
-Throughout this project I learned Linux administration, Docker, networking, firewall configuration, storage management, DNS, and troubleshooting by building, breaking, and improving a production-style home server.
+Throughout this project I learned Linux administration, Docker, networking, firewall configuration, storage management, DNS, and troubleshooting by building, breaking, and improving a home server.
 
 ---
 
 # 💭 Why I Built This
 
-When I started this project, my biggest concern wasn't installing Ubuntu, it was ending up with a complicated environment that I didn't understand.
+When I started this project, my biggest concern was ending up with a complicated environment that I didn't understand.
 
 I wanted to avoid blindly following tutorials and instead learn how each component worked so I could confidently troubleshoot issues, explain the architecture, and maintain it over time.
 
