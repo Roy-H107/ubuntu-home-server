@@ -93,28 +93,15 @@ Every service added to this server became an opportunity to better understand Li
 
 | Technology | Purpose |
 |------------|---------|
-| Ubuntu Server | Operating system |
-| Docker | Containerization platform |
-| Portainer | Docker management interface |
-| Jellyfin | Self-hosted media server |
-| Samba | Network file sharing |
-| Cloudflare DDNS | Dynamic DNS management |
-| SSH | Remote administration |
-| UFW | Host firewall |
+| Ubuntu Server | Operating System |
+| Docker | Containerization Platform |
+| Portainer | Container Management |
+| Jellyfin | Media Streaming |
+| Samba | Network File Sharing |
+| Cloudflare DDNS | Dynamic DNS Management |
+| SSH | Remote Administration |
+| UFW | Firewall |
 | Palworld Dedicated Server | Multiplayer game hosting |
-
----
-
-# 🛠️ Services
-
-| Service | Purpose |
-|----------|---------|
-| Docker | Container platform |
-| Portainer | Docker management |
-| Jellyfin | Media streaming |
-| Samba | Network file sharing |
-| Cloudflare DDNS | Dynamic DNS |
-| Palworld Server | Dedicated game server |
 
 ---
 
@@ -152,27 +139,150 @@ UFW provided a simple way to manage firewall rules while limiting network exposu
 
 ---
 
-# 💡 Skills Demonstrated
+# 🛠️ Challenges & Solutions
 
-- Linux Administration
-- Docker
-- Container Networking
-- Samba
+Building this homelab was an iterative process. Nearly every service introduced a new technical challenge that required research, troubleshooting, and a better understanding of how Linux infrastructure works. Rather than avoiding these issues, I used each one as an opportunity to improve my troubleshooting process and deepen my understanding of the technologies involved.
+
+---
+
+## 🐧 Learning Linux Without a GUI
+
+### Challenge
+
+My biggest concern when starting this project was creating a complicated environment that I didn't truly understand. I wanted to avoid relying on graphical interfaces or blindly following tutorials.
+
+### Solution
+
+I committed to administering the server primarily through SSH and the Linux command line. Instead of simply copying commands, I focused on understanding what each command did, how services interacted with one another, and how to verify configurations after making changes.
+
+### Outcome
+
+This approach significantly increased my confidence using Linux and gave me the ability to troubleshoot issues independently rather than relying on step-by-step guides.
+
+---
+
+## 🐳 Understanding Docker & Containerization
+
+### Challenge
+
+Docker introduced an entirely new deployment model that differed from traditional software installation. Understanding containers, persistent storage, networking, and port mappings was initially unfamiliar.
+
+### Solution
+
+I deployed each service individually, learning how Docker containers communicate with the host system, how volumes preserve application data, and how container networking affects service accessibility.
+
+### Outcome
+
+I now use Docker as the primary deployment method for applications on this server and understand the advantages of containerized infrastructure for maintenance, updates, and isolation.
+
+---
+
+## 🌐 Publishing Services to the Internet
+
+### Challenge
+
+Making services accessible outside of my home network required understanding several networking concepts working together, including dynamic public IP addresses, DNS, router port forwarding, and host firewall rules.
+
+### Solution
+
+I implemented Cloudflare DDNS to automatically update DNS records whenever my public IP address changed, configured router port forwarding for required services, and secured the server using UFW by allowing only the ports necessary for published applications.
+
+### Outcome
+
+The server can reliably host public-facing services while minimizing unnecessary network exposure and improving my understanding of real-world networking concepts.
+
+---
+
+## 🎮 Hosting a Reliable Palworld Server
+
+### Challenge
+
+Deploying a dedicated multiplayer game server required troubleshooting Docker networking, firewall rules, and external connectivity to ensure players outside my local network could successfully connect.
+
+### Solution
+
+I validated Docker container configuration, verified port mappings, adjusted firewall rules, confirmed router forwarding, and tested connectivity until external access was functioning reliably.
+
+### Outcome
+
+The server successfully hosted seven concurrent players, demonstrating that the infrastructure was stable enough to support real-world use by friends and family.
+
+---
+
+## 📁 Centralizing File Storage
+
+### Challenge
+
+I wanted media and shared files to be accessible from multiple Windows devices without relying on local storage or constantly transferring files between computers.
+
+### Solution
+
+I configured Samba network shares with appropriate permissions, allowing Windows systems on my local network to securely access centralized storage hosted on the Ubuntu server.
+
+### Outcome
+
+The server became the central storage location for media and shared files, simplifying management while improving my understanding of Linux file permissions and network file sharing.
+
+---
+
+## 📚 Documentation & Knowledge Retention
+
+### Challenge
+
+One of my original goals was to avoid building a system that I couldn't explain or maintain months later.
+
+### Solution
+
+I documented architecture decisions, deployment choices, networking configuration, and lessons learned throughout the project. Creating this repository became part of the engineering process rather than something completed afterward.
+
+### Outcome
+
+The documentation now serves as both a technical reference for future maintenance and a record of the knowledge gained throughout the project.
+
+---
+
+## 💡 Skills Demonstrated
+
+### Systems Administration
+
+- Linux
 - SSH
-- Firewall Configuration (UFW)
-- Cloudflare DNS
+- User Management
+
+### Networking
+
+- DNS
 - Port Forwarding
-- Network Troubleshooting
-- Infrastructure Documentation
+- Firewall Configuration
+- Dynamic DNS
+
+### Containerization
+
+- Docker
+- Portainer
+- Persistent Storage
+
+### Infrastructure
+
+- Documentation
+- Troubleshooting
+- Service Deployment
 
 ---
 
 # 🚀 Future Improvements
 
-- Reverse Proxy
-- SSL Certificates
-- Monitoring & Alerting
-- Automated Backups
-- Additional Docker Services
-- Infrastructure Diagrams
-- Network Topology Documentation
+- Implement Nginx Proxy Manager for reverse proxy management
+- Secure Internet-facing services with HTTPS certificates
+- Deploy Grafana and Prometheus for monitoring
+- Automate container updates where appropriate
+- Add scheduled backups for application data
+- Expand game server hosting
+
+---
+
+## 📈 Project Status
+
+🟢 Active Development
+
+This repository is updated as I continue improving my Ubuntu homelab and expanding the services it provides.
