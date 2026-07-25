@@ -18,7 +18,7 @@ Throughout this project I learned Linux administration, Docker, networking, fire
 
 # 💭 Why I Built This
 
-When I started this project, my biggest concern wasn't installing Ubuntu—it was ending up with a complicated environment that I didn't truly understand.
+When I started this project, my biggest concern wasn't installing Ubuntu, it was ending up with a complicated environment that I didn't understand.
 
 I wanted to avoid blindly following tutorials and instead learn how each component worked so I could confidently troubleshoot issues, explain the architecture, and maintain it over time.
 
