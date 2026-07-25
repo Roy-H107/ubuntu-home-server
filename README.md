@@ -18,7 +18,7 @@ Enterprise-style Ubuntu Server homelab featuring Docker, Portainer, Jellyfin, Sa
 - [Why I Built This](#-why-i-built-this)
 - [System Architecture](#-system-architecture)
 - [Objectives](#-objectives)
-- [Hardware](#-hardware)
+- [Host_Specifications](#-host-specifications)
 - [Software Stack](#-software-stack)
 - [Design Decisions](#-design-decisions)
 - [Challenges & Solutions](#-challenges--solutions)
