@@ -173,6 +173,12 @@ Cloudflare DDNS automatically updates my DNS records whenever my public IP chang
 
 UFW provided a simple way to manage firewall rules while limiting network exposure to only the required services.
 
+The firewall restricts administrative and internal services to my local network while exposing only the ports required for public-facing applications such as the dedicated Palworld server.
+
+<p align="center">
+  <img src="images/ufw-firewall-rules.png" alt="UFW Firewall Rules" width="100%">
+</p>
+
 ---
 
 # 🛠️ Challenges & Solutions
