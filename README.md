@@ -157,7 +157,13 @@ Portainer provides a clean web interface for managing Docker containers while st
 
 ## Why Jellyfin?
 
-I wanted a self-hosted media server that I owned and controlled without subscription fees.
+Jellyfin serves as my family's self-hosted media platform, providing centralized access to movies, television shows, and a dedicated library of classic cartoons curated for my son. Building this service allowed me to learn media server administration while creating something meaningful for my family.
+
+<p align="center">
+  <img src="images/jellyfin-home.png"
+       alt="Jellyfin Home Screen"
+       width="100%">
+</p>
 
 ## Why Samba?
 
