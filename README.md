@@ -6,11 +6,23 @@ Enterprise-style Ubuntu Server homelab featuring Docker, Portainer, Jellyfin, Sa
 
 # 📖 Overview
 
-This repository documents my Ubuntu Server homelab from first installation through the deployment of services.
+I built this Ubuntu Server homelab to become comfortable with Linux while creating infrastructure that provides real value to the people around me.
 
-The goal of this project was to gain hands-on experience with Linux system administration, containerization, networking, storage management, and infrastructure documentation while building services I actually use every day.
+Rather than building a lab solely for learning, I wanted to create services that I would actually use every day. This project has grown into a platform for media streaming, file sharing, and dedicated game hosting for friends and family.
 
-Instead of following a single tutorial, this environment was built incrementally over time by researching, troubleshooting, and solving real-world problems.
+One of the most rewarding moments was successfully hosting a Palworld server that supported seven concurrent players. Seeing people actively use something I built reinforced that the best way to learn infrastructure is by solving real problems for real users.
+
+Throughout this project I learned Linux administration, Docker, networking, firewall configuration, storage management, DNS, and troubleshooting by building, breaking, and improving a production-style home server.
+
+---
+
+# 💭 Why I Built This
+
+When I started this project, my biggest concern wasn't installing Ubuntu—it was ending up with a complicated environment that I didn't truly understand.
+
+I wanted to avoid blindly following tutorials and instead learn how each component worked so I could confidently troubleshoot issues, explain the architecture, and maintain it over time.
+
+Every service added to this server became an opportunity to better understand Linux, networking, Docker, and systems administration through hands-on experience.
 
 ---
 
