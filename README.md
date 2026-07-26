@@ -57,7 +57,7 @@ Every service added to this server became an opportunity to better understand Li
 This diagram provides a high-level overview of the homelab architecture. Incoming traffic is managed through Cloudflare DDNS, secured by the home router and UFW firewall, and directed to an Ubuntu Server hosting containerized services with Docker. Individual services support media streaming, infrastructure management, and multiplayer game hosting for clients on both the local network and the Internet.
 
 <p align="center">
-  <img src="images/ubuntu-home-server.svg"
+  <img src="images/ubuntu-home-server.png"
        alt="Ubuntu Home Server Architecture Diagram"
        width="50%">
 </p>
